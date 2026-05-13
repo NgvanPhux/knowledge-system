@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import ModuleNote from "../components/ModuleNote/ModuleNote";
+import ModuleNote from "../components/Modulenote/modulenote";
 
 export default function NotesPage() {
   return (
