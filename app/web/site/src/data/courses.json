@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tổng quan Kỹ sư điện",
+    "slug": "tong-quan-ky-su-dien",
+    "description": "Khóa học Tổng quan Kỹ sư điện",
+    "link": "/courses/tong-quan-ky-su-dien/bai-1-nguyen-li-dien-cong-nghiep"
+  },
+  {
+    "title": "Tổng quan Kỹ sư điện",
+    "slug": "tong-quan-ky-su-dien",
+    "description": "Khóa học Tổng quan Kỹ sư điện",
+    "link": "/courses/tong-quan-ky-su-dien/bai-1-nguyen-li-dien-cong-nghiep"
+  },
+  {
+    "title": "PLC",
+    "slug": "plc",
+    "description": "Khóa học PLC",
+    "link": "/courses/plc/bai-1-nguyen-li-dien-cong-nghiep"
+  },
+  {
+    "title": "Mở đầu kĩ sư điện",
+    "slug": "mo-dau-ki-su-dien",
+    "description": "Khóa học Mở đầu kĩ sư điện",
+    "link": "/courses/mo-dau-ki-su-dien/bai-1-cac-nguyen-tac-chung"
+  }
+]

@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.module-note-app {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eef2f5;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn-action,
+.btn-export,
+.btn-save,
+.btn-load {
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+.btn-new {
+  background: #3498db;
+}
+
+.btn-delete {
+  background: #e74c3c;
+}
+
+.btn-rename {
+  background: #f1c40f;
+  color: black;
+}
+
+.word {
+  background: #2b579a;
+}
+
+.btn-load {
+  background: #f39c12;
+}
+
+.btn-save {
+  background: #27ae60;
+}
+
+.divider {
+  color: #7f8c8d;
+  margin: 0 5px;
+}
+
+/* TABS */
+
+.project-tabs {
+  background: #bdc3c7;
+  padding: 0 15px;
+  display: flex;
+  min-height: 40px;
+  align-items: flex-end;
+}
+
+.tab-item {
+  padding: 8px 15px;
+  cursor: pointer;
+  background: #dfe6e9;
+  border: 1px solid #b2bec3;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  margin-right: 5px;
+}
+
+.tab-item.active {
+  background: white;
+  font-weight: bold;
+}
+
+/* MAIN */
+
+.container {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  gap: 15px;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.template-actions {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.module-item {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.btn-add-module {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+/* WORKSPACE */
+
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.work-space {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  min-height: 100%;
+}
+
+.placeholder-text {
+  text-align: center;
+  color: #7f8c8d;
+  margin-top: 50px;
+}
+
+.content-row {
+  background: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.layer-info {
+  background: #34495e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor-area {
+  min-height: 100px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  outline: none;
+}

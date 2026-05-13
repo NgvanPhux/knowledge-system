@@ -1,0 +1,324 @@
+/**
+ * GLOBAL THEME
+ * Knowledge System
+ */
+
+/* =====================================================
+   ROOT
+===================================================== */
+
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+
+  --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: Inter, Roboto, system-ui, sans-serif;
+  --ifm-heading-font-family: Inter, Roboto, sans-serif;
+
+  --ifm-navbar-height: 64px;
+
+  --ifm-background-color: #f8fafc;
+  --ifm-card-background-color: #ffffff;
+
+  --ifm-global-radius: 12px;
+
+  --ifm-heading-color: #111827; /* heading màu cho light mode */
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+/* =====================================================
+   DARK MODE
+===================================================== */
+
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+
+  --ifm-background-color: #0f172a;
+  --ifm-card-background-color: #111827;
+
+  --ifm-heading-color: #f9fafb; /* heading màu sáng cho dark mode */
+
+  --docusaurus-highlighted-code-line-bg: rgba(255,255,255,0.08);
+}
+
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+}
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(17,24,39,0.92);
+  border-bottom: 1px solid #1f2937;
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+.navbar__link {
+  font-weight: 500;
+}
+
+/* Search */
+
+.navbar__search-input {
+  border-radius: 10px !important;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+}
+
+[data-theme='dark'] .navbar__search-input {
+  background-color: #111827;
+  border-color: #374151;
+}
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid #e5e7eb;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right: 1px solid #1f2937;
+}
+
+.menu {
+  padding: 1rem 0.75rem;
+}
+
+.menu__link {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background: rgba(46,133,85,0.08);
+}
+
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* =====================================================
+   MAIN CONTENT
+===================================================== */
+
+.main-wrapper {
+  background: var(--ifm-background-color);
+}
+
+.theme-doc-markdown {
+  padding-top: 0.5rem;
+}
+
+/* Breadcrumb */
+
+.breadcrumbs {
+  margin-bottom: 1rem !important;
+  font-size: 0.92rem;
+}
+
+/* Title */
+
+.theme-doc-markdown h1 {
+  font-size: 1.5rem !important;
+  line-height: 1.2 !important;
+  margin-top: 0 !important;
+  margin-bottom:0rem !important;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  word-break: break-word;
+
+  /* Xóa hoàn toàn background */
+  background: none !important;
+  background-color: transparent !important;
+
+  color: var(--ifm-heading-color) !important;
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Headings */
+
+.markdown h2 {
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.markdown h3 {
+  margin-top: 1.8rem;
+  font-weight: 600;
+}
+
+/* Paragraph */
+
+.markdown p {
+  line-height: 1.85;
+  font-size: 1.02rem;
+}
+
+/* Lists */
+
+.markdown li {
+  margin-bottom: 0.4rem;
+}
+
+/* =====================================================
+   CODE BLOCK
+===================================================== */
+
+.theme-code-block {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* =====================================================
+   TOC
+===================================================== */
+
+.table-of-contents {
+  font-size: 0.92rem;
+  padding-left: 1rem;
+}
+
+.table-of-contents__link {
+  transition: color 0.2s ease;
+}
+
+.table-of-contents__link--active {
+  font-weight: 600;
+}
+
+.col.col--3 {
+  padding-left: 28px;
+}
+
+/* =====================================================
+   PAGINATION
+===================================================== */
+
+.pagination-nav__link {
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 996px) {
+  .theme-doc-markdown h1 {
+    margin: 0 0 1.5rem 0 !important;
+  }
+
+  .col.col--3 {
+    padding-left: 0;
+  }
+
+  .navbar__search-input {
+    width: 140px;
+  }
+}
+
+/* Reset row */
+
+.row {
+  display: flex !important;
+  width: 100% !important;
+  /* bỏ flex-wrap: nowrap để không phá layout */
+}
+
+/* Main article column */
+
+.col {
+  min-width: 0 !important;
+}
+
+/* Content article */
+
+article {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Markdown container */
+
+.theme-doc-markdown {
+  width: 100% !important;
+  max-width: 1000px !important;
+}
+
+/* Main content area */
+
+.theme-doc-item-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Prevent content shrinking */
+
+main {
+  width: 100%;
+}
