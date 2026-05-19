@@ -2,24 +2,28 @@
   {
     "title": "Tổng quan Kỹ sư điện",
     "slug": "tong-quan-ky-su-dien",
+    "order": 1,
     "description": "Khóa học Tổng quan Kỹ sư điện",
     "link": "/courses/tong-quan-ky-su-dien/bai-1-nguyen-li-dien-cong-nghiep"
   },
   {
     "title": "PLC",
     "slug": "plc",
+    "order": 2,
     "description": "Khóa học PLC",
-    "link": "/courses/plc/bai-1-nguyen-li-dien-cong-nghiep"
+    "link": "/courses/plc/bai-1-p"
   },
   {
     "title": "Sản xuất Tinh gọn",
     "slug": "san-xuat-tinh-gon",
+    "order": 3,
     "description": "Khóa học Sản xuất Tinh gọn",
     "link": "/courses/san-xuat-tinh-gon/bai-1-san-xuat-tinh-gon-la-gi"
   },
   {
     "title": "Mở đầu kĩ sư điện",
     "slug": "mo-dau-ki-su-dien",
+    "order": 4,
     "description": "Khóa học Mở đầu kĩ sư điện",
     "link": "/courses/mo-dau-ki-su-dien/bai-1-cac-nguyen-tac-chung"
   }

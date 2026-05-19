@@ -322,3 +322,69 @@ article {
 main {
   width: 100%;
 }
+/* =====================================================
+   PDF
+===================================================== */
+
+iframe {
+
+  border: none;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 6px 24px rgba(0,0,0,0.08);
+
+  margin: 1.2rem 0;
+}
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin: 1.5rem 0;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  font-size: 0.96rem;
+}
+
+table thead {
+
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+table th,
+table td {
+
+  padding: 12px 16px;
+
+  border: 1px solid #e5e7eb;
+}
+
+table tr:nth-child(even) {
+
+  background: rgba(0,0,0,0.02);
+}
+
+[data-theme='dark'] table td,
+[data-theme='dark'] table th {
+
+  border-color: #374151;
+}
+
+[data-theme='dark'] table tr:nth-child(even) {
+
+  background: rgba(255,255,255,0.03);
+}
