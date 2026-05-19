@@ -95,7 +95,7 @@ const config = {
     footer: {
       style: 'dark',
 
-      copyright: `Copyright © ${new Date().getFullYear()} Knowledge System`,
+      copyright: `Copyright © ${new Date().getFullYear()} VĂN PHỤC X CHATGPT`,
     },
 
     prism: {

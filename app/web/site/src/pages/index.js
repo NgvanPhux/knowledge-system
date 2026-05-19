@@ -21,7 +21,7 @@ export default function Home() {
             marginBottom: "40px",
           }}
         >
-          <h1>Knowledge System of VanPhuc</h1>
+          <h1>Kiến thưc của VanPhuc</h1>
 
           <p>
             Hệ thống lưu trữ kiến thức

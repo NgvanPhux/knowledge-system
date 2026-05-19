@@ -6,16 +6,16 @@
     "link": "/courses/tong-quan-ky-su-dien/bai-1-nguyen-li-dien-cong-nghiep"
   },
   {
-    "title": "Tổng quan Kỹ sư điện",
-    "slug": "tong-quan-ky-su-dien",
-    "description": "Khóa học Tổng quan Kỹ sư điện",
-    "link": "/courses/tong-quan-ky-su-dien/bai-1-nguyen-li-dien-cong-nghiep"
-  },
-  {
     "title": "PLC",
     "slug": "plc",
     "description": "Khóa học PLC",
     "link": "/courses/plc/bai-1-nguyen-li-dien-cong-nghiep"
+  },
+  {
+    "title": "Sản xuất Tinh gọn",
+    "slug": "san-xuat-tinh-gon",
+    "description": "Khóa học Sản xuất Tinh gọn",
+    "link": "/courses/san-xuat-tinh-gon/bai-1-san-xuat-tinh-gon-la-gi"
   },
   {
     "title": "Mở đầu kĩ sư điện",
